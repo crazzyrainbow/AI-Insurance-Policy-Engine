@@ -1,0 +1,51 @@
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+
+# ----------------------
+# Local Data (Insurance PDFs / embeddings)
+# ----------------------
+data/
+chroma/
+
+# ----------------------
+# Frontend Build Files
+# ----------------------
+node_modules/
+dist/
+build/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# IDE
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# Test / Cache
+# ----------------------
+.pytest_cache/
+coverage/
